@@ -1,0 +1,27 @@
+{
+  "name": "dsh-guard-truth-lite",
+  "version": "0.1.0",
+  "description": "守真框架 · 精简版：源 Agent 只读编排，所有写操作派给受控 worker",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "preset",
+    "guardrails",
+    "audit",
+    "orchestration"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
